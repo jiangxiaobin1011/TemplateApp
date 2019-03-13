@@ -16,6 +16,9 @@
 		5AF48C572238EB87006C4042 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C542238EB87006C4042 /* HttpRequest.m */; };
 		5AF48C582238EB87006C4042 /* UploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C562238EB87006C4042 /* UploadParam.m */; };
 		5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C6E2238ECA7006C4042 /* BaseViewController.m */; };
+		5AF48C732238F35F006C4042 /* CustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C722238F35F006C4042 /* CustomerView.m */; };
+		5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C752238F38A006C4042 /* HomeViewController.m */; };
+		5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C782238F3B4006C4042 /* LoginViewController.m */; };
 		DEBC1D6C46B765A348BF843A /* libPods-TemPlateAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,12 @@
 		5AF48C562238EB87006C4042 /* UploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadParam.m; sourceTree = "<group>"; };
 		5AF48C6D2238ECA7006C4042 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		5AF48C6E2238ECA7006C4042 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5AF48C712238F35F006C4042 /* CustomerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerView.h; sourceTree = "<group>"; };
+		5AF48C722238F35F006C4042 /* CustomerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerView.m; sourceTree = "<group>"; };
+		5AF48C742238F38A006C4042 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5AF48C752238F38A006C4042 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5AF48C772238F3B4006C4042 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5AF48C782238F3B4006C4042 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		96077C738C9DACB2EB1D76DD /* Pods-TemPlateAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemPlateAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP.release.xcconfig"; sourceTree = "<group>"; };
 		B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemPlateAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,7 +124,6 @@
 				5AF48C6B2238EC80006C4042 /* Common */,
 				5AF48C592238EBC8006C4042 /* Home */,
 				5AF48C5B2238EBC8006C4042 /* Login */,
-				5AF48C5A2238EBC8006C4042 /* UserCenter */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -156,16 +164,6 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		5AF48C5A2238EBC8006C4042 /* UserCenter */ = {
-			isa = PBXGroup;
-			children = (
-				5AF48C5F2238EBFD006C4042 /* Controller */,
-				5AF48C612238EBFD006C4042 /* Model */,
-				5AF48C602238EBFD006C4042 /* View */,
-			);
-			path = UserCenter;
-			sourceTree = "<group>";
-		};
 		5AF48C5B2238EBC8006C4042 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,30 +174,11 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		5AF48C5F2238EBFD006C4042 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		5AF48C602238EBFD006C4042 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5AF48C612238EBFD006C4042 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		5AF48C652238EC24006C4042 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5AF48C742238F38A006C4042 /* HomeViewController.h */,
+				5AF48C752238F38A006C4042 /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -221,6 +200,8 @@
 		5AF48C682238EC5E006C4042 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5AF48C772238F3B4006C4042 /* LoginViewController.h */,
+				5AF48C782238F3B4006C4042 /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +241,8 @@
 		5AF48C702238ED19006C4042 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5AF48C712238F35F006C4042 /* CustomerView.h */,
+				5AF48C722238F35F006C4042 /* CustomerView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -380,9 +363,12 @@
 				5AF48C3622389F73006C4042 /* ViewController.m in Sources */,
 				5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */,
 				5AF48C572238EB87006C4042 /* HttpRequest.m in Sources */,
+				5AF48C732238F35F006C4042 /* CustomerView.m in Sources */,
 				5AF48C4122389F74006C4042 /* main.m in Sources */,
+				5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */,
 				5AF48C582238EB87006C4042 /* UploadParam.m in Sources */,
 				5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */,
+				5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
