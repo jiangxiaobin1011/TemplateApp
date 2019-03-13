@@ -13,9 +13,14 @@
 		5AF48C3B22389F74006C4042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF48C3A22389F74006C4042 /* Assets.xcassets */; };
 		5AF48C3E22389F74006C4042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF48C3C22389F74006C4042 /* LaunchScreen.storyboard */; };
 		5AF48C4122389F74006C4042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C4022389F74006C4042 /* main.m */; };
+		5AF48C572238EB87006C4042 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C542238EB87006C4042 /* HttpRequest.m */; };
+		5AF48C582238EB87006C4042 /* UploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C562238EB87006C4042 /* UploadParam.m */; };
+		5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C6E2238ECA7006C4042 /* BaseViewController.m */; };
+		DEBC1D6C46B765A348BF843A /* libPods-TemPlateAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0493D003D56CFC436350F270 /* Pods-TemPlateAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemPlateAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		5AF48C2E22389F73006C4042 /* TemPlateAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemPlateAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF48C3122389F73006C4042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AF48C3222389F73006C4042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,15 @@
 		5AF48C3D22389F74006C4042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF48C3F22389F74006C4042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF48C4022389F74006C4042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AF48C472238A162006C4042 /* TemplatePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplatePrefixHeader.pch; sourceTree = "<group>"; };
+		5AF48C532238EB87006C4042 /* UploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadParam.h; sourceTree = "<group>"; };
+		5AF48C542238EB87006C4042 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		5AF48C552238EB87006C4042 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		5AF48C562238EB87006C4042 /* UploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadParam.m; sourceTree = "<group>"; };
+		5AF48C6D2238ECA7006C4042 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5AF48C6E2238ECA7006C4042 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		96077C738C9DACB2EB1D76DD /* Pods-TemPlateAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemPlateAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP.release.xcconfig"; sourceTree = "<group>"; };
+		B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemPlateAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBC1D6C46B765A348BF843A /* libPods-TemPlateAPP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3616F99A40299D20ABC07532 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0493D003D56CFC436350F270 /* Pods-TemPlateAPP.debug.xcconfig */,
+				96077C738C9DACB2EB1D76DD /* Pods-TemPlateAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EEABCA47F3464A66AD041A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5AF48C2522389F73006C4042 = {
 			isa = PBXGroup;
 			children = (
 				5AF48C3022389F73006C4042 /* TemPlateAPP */,
 				5AF48C2F22389F73006C4042 /* Products */,
+				3616F99A40299D20ABC07532 /* Pods */,
+				3EEABCA47F3464A66AD041A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +92,176 @@
 		5AF48C3022389F73006C4042 /* TemPlateAPP */ = {
 			isa = PBXGroup;
 			children = (
-				5AF48C3122389F73006C4042 /* AppDelegate.h */,
-				5AF48C3222389F73006C4042 /* AppDelegate.m */,
+				5AF48C502238EB87006C4042 /* 3rd */,
+				5AF48C512238EB87006C4042 /* Expand */,
+				5AF48C4F2238EB87006C4042 /* Main */,
 				5AF48C3422389F73006C4042 /* ViewController.h */,
 				5AF48C3522389F73006C4042 /* ViewController.m */,
 				5AF48C3722389F73006C4042 /* Main.storyboard */,
 				5AF48C3A22389F74006C4042 /* Assets.xcassets */,
 				5AF48C3C22389F74006C4042 /* LaunchScreen.storyboard */,
 				5AF48C3F22389F74006C4042 /* Info.plist */,
+				5AF48C472238A162006C4042 /* TemplatePrefixHeader.pch */,
 				5AF48C4022389F74006C4042 /* main.m */,
 			);
 			path = TemPlateAPP;
+			sourceTree = "<group>";
+		};
+		5AF48C4F2238EB87006C4042 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C3122389F73006C4042 /* AppDelegate.h */,
+				5AF48C3222389F73006C4042 /* AppDelegate.m */,
+				5AF48C6B2238EC80006C4042 /* Common */,
+				5AF48C592238EBC8006C4042 /* Home */,
+				5AF48C5B2238EBC8006C4042 /* Login */,
+				5AF48C5A2238EBC8006C4042 /* UserCenter */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5AF48C502238EB87006C4042 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		5AF48C512238EB87006C4042 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C522238EB87006C4042 /* Network */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		5AF48C522238EB87006C4042 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C552238EB87006C4042 /* HttpRequest.h */,
+				5AF48C542238EB87006C4042 /* HttpRequest.m */,
+				5AF48C532238EB87006C4042 /* UploadParam.h */,
+				5AF48C562238EB87006C4042 /* UploadParam.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5AF48C592238EBC8006C4042 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C652238EC24006C4042 /* Controller */,
+				5AF48C662238EC24006C4042 /* Model */,
+				5AF48C672238EC24006C4042 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5AF48C5A2238EBC8006C4042 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C5F2238EBFD006C4042 /* Controller */,
+				5AF48C612238EBFD006C4042 /* Model */,
+				5AF48C602238EBFD006C4042 /* View */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		5AF48C5B2238EBC8006C4042 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C682238EC5E006C4042 /* Controller */,
+				5AF48C692238EC5E006C4042 /* Model */,
+				5AF48C6A2238EC5E006C4042 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5AF48C5F2238EBFD006C4042 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AF48C602238EBFD006C4042 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AF48C612238EBFD006C4042 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AF48C652238EC24006C4042 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AF48C662238EC24006C4042 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AF48C672238EC24006C4042 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AF48C682238EC5E006C4042 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AF48C692238EC5E006C4042 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AF48C6A2238EC5E006C4042 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AF48C6B2238EC80006C4042 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C6C2238EC8F006C4042 /* BaseVC */,
+				5AF48C702238ED19006C4042 /* Classes */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5AF48C6C2238EC8F006C4042 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C6D2238ECA7006C4042 /* BaseViewController.h */,
+				5AF48C6E2238ECA7006C4042 /* BaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		5AF48C702238ED19006C4042 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF48C4422389F74006C4042 /* Build configuration list for PBXNativeTarget "TemPlateAPP" */;
 			buildPhases = (
+				018C5066E04EB14E87A14826 /* [CP] Check Pods Manifest.lock */,
 				5AF48C2A22389F73006C4042 /* Sources */,
 				5AF48C2B22389F73006C4042 /* Frameworks */,
 				5AF48C2C22389F73006C4042 /* Resources */,
+				6712C3AF221B2777B65ED90C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +331,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		018C5066E04EB14E87A14826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TemPlateAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6712C3AF221B2777B65ED90C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AF48C2A22389F73006C4042 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5AF48C3622389F73006C4042 /* ViewController.m in Sources */,
+				5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */,
+				5AF48C572238EB87006C4042 /* HttpRequest.m in Sources */,
 				5AF48C4122389F74006C4042 /* main.m in Sources */,
+				5AF48C582238EB87006C4042 /* UploadParam.m in Sources */,
 				5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,10 +522,13 @@
 		};
 		5AF48C4522389F74006C4042 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0493D003D56CFC436350F270 /* Pods-TemPlateAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L74YK9LAM;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TemPlateAPP/TemplatePrefixHeader.pch";
 				INFOPLIST_FILE = TemPlateAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,15 +537,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IceJiang.TemPlateAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		5AF48C4622389F74006C4042 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96077C738C9DACB2EB1D76DD /* Pods-TemPlateAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L74YK9LAM;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TemPlateAPP/TemplatePrefixHeader.pch";
 				INFOPLIST_FILE = TemPlateAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IceJiang.TemPlateAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
