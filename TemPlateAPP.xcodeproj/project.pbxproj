@@ -16,9 +16,15 @@
 		5AF48C572238EB87006C4042 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C542238EB87006C4042 /* HttpRequest.m */; };
 		5AF48C582238EB87006C4042 /* UploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C562238EB87006C4042 /* UploadParam.m */; };
 		5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C6E2238ECA7006C4042 /* BaseViewController.m */; };
-		5AF48C732238F35F006C4042 /* CustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C722238F35F006C4042 /* CustomerView.m */; };
 		5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C752238F38A006C4042 /* HomeViewController.m */; };
 		5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C782238F3B4006C4042 /* LoginViewController.m */; };
+		5AF48C812238F71D006C4042 /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C7C2238F71D006C4042 /* SDiOSVersion.m */; };
+		5AF48C822238F71D006C4042 /* WLXActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C7E2238F71D006C4042 /* WLXActionSheet.m */; };
+		5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C852238F728006C4042 /* UIView+Addition.m */; };
+		5AF48C8F2238F728006C4042 /* UIScreen+GSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */; };
+		5AF48C902238F728006C4042 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C872238F728006C4042 /* UIView+Common.m */; };
+		5AF48C912238F728006C4042 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C892238F728006C4042 /* UIImage+Tint.m */; };
+		5AF48C922238F728006C4042 /* UIColor+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */; };
 		DEBC1D6C46B765A348BF843A /* libPods-TemPlateAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */; };
 /* End PBXBuildFile section */
 
@@ -41,12 +47,25 @@
 		5AF48C562238EB87006C4042 /* UploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadParam.m; sourceTree = "<group>"; };
 		5AF48C6D2238ECA7006C4042 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		5AF48C6E2238ECA7006C4042 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		5AF48C712238F35F006C4042 /* CustomerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerView.h; sourceTree = "<group>"; };
-		5AF48C722238F35F006C4042 /* CustomerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerView.m; sourceTree = "<group>"; };
 		5AF48C742238F38A006C4042 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		5AF48C752238F38A006C4042 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5AF48C772238F3B4006C4042 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5AF48C782238F3B4006C4042 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5AF48C7C2238F71D006C4042 /* SDiOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiOSVersion.m; sourceTree = "<group>"; };
+		5AF48C7D2238F71D006C4042 /* WLXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXActionSheet.h; sourceTree = "<group>"; };
+		5AF48C7E2238F71D006C4042 /* WLXActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXActionSheet.m; sourceTree = "<group>"; };
+		5AF48C7F2238F71D006C4042 /* SDiOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiOSVersion.h; sourceTree = "<group>"; };
+		5AF48C842238F728006C4042 /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		5AF48C852238F728006C4042 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+GSUtility.m"; sourceTree = "<group>"; };
+		5AF48C872238F728006C4042 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		5AF48C882238F728006C4042 /* UIColor+RGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBA.h"; sourceTree = "<group>"; };
+		5AF48C892238F728006C4042 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		5AF48C8A2238F728006C4042 /* UIScreen+GSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+GSUtility.h"; sourceTree = "<group>"; };
+		5AF48C8B2238F728006C4042 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBA.m"; sourceTree = "<group>"; };
+		5AF48C8D2238F728006C4042 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		5AF48C962238F94C006C4042 /* GlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacro.h; sourceTree = "<group>"; };
 		96077C738C9DACB2EB1D76DD /* Pods-TemPlateAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemPlateAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP.release.xcconfig"; sourceTree = "<group>"; };
 		B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemPlateAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -223,8 +242,10 @@
 		5AF48C6B2238EC80006C4042 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5AF48C932238F760006C4042 /* Macro */,
 				5AF48C6C2238EC8F006C4042 /* BaseVC */,
 				5AF48C702238ED19006C4042 /* Classes */,
+				5AF48C832238F728006C4042 /* Categorys */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -241,10 +262,37 @@
 		5AF48C702238ED19006C4042 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5AF48C712238F35F006C4042 /* CustomerView.h */,
-				5AF48C722238F35F006C4042 /* CustomerView.m */,
+				5AF48C7F2238F71D006C4042 /* SDiOSVersion.h */,
+				5AF48C7C2238F71D006C4042 /* SDiOSVersion.m */,
+				5AF48C7D2238F71D006C4042 /* WLXActionSheet.h */,
+				5AF48C7E2238F71D006C4042 /* WLXActionSheet.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		5AF48C832238F728006C4042 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C842238F728006C4042 /* UIImage+Tint.h */,
+				5AF48C852238F728006C4042 /* UIView+Addition.m */,
+				5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */,
+				5AF48C872238F728006C4042 /* UIView+Common.m */,
+				5AF48C882238F728006C4042 /* UIColor+RGBA.h */,
+				5AF48C892238F728006C4042 /* UIImage+Tint.m */,
+				5AF48C8A2238F728006C4042 /* UIScreen+GSUtility.h */,
+				5AF48C8B2238F728006C4042 /* UIView+Addition.h */,
+				5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */,
+				5AF48C8D2238F728006C4042 /* UIView+Common.h */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		5AF48C932238F760006C4042 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				5AF48C962238F94C006C4042 /* GlobalMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,12 +411,18 @@
 				5AF48C3622389F73006C4042 /* ViewController.m in Sources */,
 				5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */,
 				5AF48C572238EB87006C4042 /* HttpRequest.m in Sources */,
-				5AF48C732238F35F006C4042 /* CustomerView.m in Sources */,
+				5AF48C8F2238F728006C4042 /* UIScreen+GSUtility.m in Sources */,
 				5AF48C4122389F74006C4042 /* main.m in Sources */,
 				5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */,
+				5AF48C902238F728006C4042 /* UIView+Common.m in Sources */,
 				5AF48C582238EB87006C4042 /* UploadParam.m in Sources */,
 				5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */,
+				5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */,
+				5AF48C822238F71D006C4042 /* WLXActionSheet.m in Sources */,
+				5AF48C912238F728006C4042 /* UIImage+Tint.m in Sources */,
+				5AF48C922238F728006C4042 /* UIColor+RGBA.m in Sources */,
 				5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */,
+				5AF48C812238F71D006C4042 /* SDiOSVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
