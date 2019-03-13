@@ -23,7 +23,6 @@
 		5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C852238F728006C4042 /* UIView+Addition.m */; };
 		5AF48C8F2238F728006C4042 /* UIScreen+GSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */; };
 		5AF48C902238F728006C4042 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C872238F728006C4042 /* UIView+Common.m */; };
-		5AF48C912238F728006C4042 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C892238F728006C4042 /* UIImage+Tint.m */; };
 		5AF48C922238F728006C4042 /* UIColor+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */; };
 		DEBC1D6C46B765A348BF843A /* libPods-TemPlateAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */; };
 /* End PBXBuildFile section */
@@ -55,12 +54,10 @@
 		5AF48C7D2238F71D006C4042 /* WLXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXActionSheet.h; sourceTree = "<group>"; };
 		5AF48C7E2238F71D006C4042 /* WLXActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXActionSheet.m; sourceTree = "<group>"; };
 		5AF48C7F2238F71D006C4042 /* SDiOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiOSVersion.h; sourceTree = "<group>"; };
-		5AF48C842238F728006C4042 /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
 		5AF48C852238F728006C4042 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 		5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+GSUtility.m"; sourceTree = "<group>"; };
 		5AF48C872238F728006C4042 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		5AF48C882238F728006C4042 /* UIColor+RGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBA.h"; sourceTree = "<group>"; };
-		5AF48C892238F728006C4042 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		5AF48C8A2238F728006C4042 /* UIScreen+GSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+GSUtility.h"; sourceTree = "<group>"; };
 		5AF48C8B2238F728006C4042 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
 		5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBA.m"; sourceTree = "<group>"; };
@@ -273,16 +270,14 @@
 		5AF48C832238F728006C4042 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
-				5AF48C842238F728006C4042 /* UIImage+Tint.h */,
-				5AF48C852238F728006C4042 /* UIView+Addition.m */,
-				5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */,
-				5AF48C872238F728006C4042 /* UIView+Common.m */,
-				5AF48C882238F728006C4042 /* UIColor+RGBA.h */,
-				5AF48C892238F728006C4042 /* UIImage+Tint.m */,
-				5AF48C8A2238F728006C4042 /* UIScreen+GSUtility.h */,
-				5AF48C8B2238F728006C4042 /* UIView+Addition.h */,
-				5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */,
 				5AF48C8D2238F728006C4042 /* UIView+Common.h */,
+				5AF48C872238F728006C4042 /* UIView+Common.m */,
+				5AF48C8A2238F728006C4042 /* UIScreen+GSUtility.h */,
+				5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */,
+				5AF48C882238F728006C4042 /* UIColor+RGBA.h */,
+				5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */,
+				5AF48C8B2238F728006C4042 /* UIView+Addition.h */,
+				5AF48C852238F728006C4042 /* UIView+Addition.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -419,7 +414,6 @@
 				5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */,
 				5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */,
 				5AF48C822238F71D006C4042 /* WLXActionSheet.m in Sources */,
-				5AF48C912238F728006C4042 /* UIImage+Tint.m in Sources */,
 				5AF48C922238F728006C4042 /* UIColor+RGBA.m in Sources */,
 				5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */,
 				5AF48C812238F71D006C4042 /* SDiOSVersion.m in Sources */,

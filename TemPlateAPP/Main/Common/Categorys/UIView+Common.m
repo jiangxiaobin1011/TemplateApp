@@ -7,29 +7,8 @@
 //
 
 #import "UIView+Common.h"
-#import "AppDelegate.h"
 
 @implementation UIView (Common)
-
-
--(CGFloat)WX_Width{
-    return self.frame.size.width;
-}
--(CGFloat)WX_Height{
-    return self.frame.size.height;
-}
--(CGFloat)WX_originx{
-    return self.frame.origin.x;
-}
--(CGFloat)WX_originy{
-    return self.frame.origin.y;
-}
-
-
-
-
-
-
 
 +(UIView*)createAutoViewAndClass:(Class)class addToSuperView:(UIView*)superView
 {
@@ -336,11 +315,9 @@
 
 +(void)changeLabelAttributeWithStr:(NSString*)changeStr andFont:(UIFont*)font andChangeColor:(UIColor*)color andLineSpace:(float)Linespace andLabel:(UILabel*)label{
     
-    
     NSMutableParagraphStyle  *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     // 行间距设置为30
     [paragraphStyle  setLineSpacing:15];
-    
     
     NSMutableAttributedString*  attributedString = [[NSMutableAttributedString alloc] initWithString:label.text];
     NSRange range = [label.text rangeOfString:changeStr];
@@ -358,9 +335,6 @@
     label.attributedText = attributedString;
     
 }
-
-
-
 
 
 +(NSMutableAttributedString*)changeViewAttributeWithStr:(NSString*)changeStr andFont:(UIFont*)font andChangeColor:(UIColor*)color andAllStr:(NSString*)allStr{
@@ -406,45 +380,11 @@
     return attributedString;
 }
 
-+ (BOOL)getIsIpad
-{
-    NSString *deviceType = [UIDevice currentDevice].model;
-    
-    if([deviceType isEqualToString:@"iPhone"]) {
-        //iPhone
-        return NO;
-    }
-    else if([deviceType isEqualToString:@"iPod touch"]) {
-        //iPod Touch
-        return NO;
-    }
-    else if([deviceType isEqualToString:@"iPad"]) {
-        //iPad
-        return YES;
-    }
-    return NO;
-}
-
-
 + (void)addShadow:(UIView*)view{
-    
-    
-    
     view.layer.shadowColor = [UIColor grayColor].CGColor;//阴影颜色
     view.layer.shadowOffset = CGSizeMake(0, 2);//偏移距离
     view.layer.shadowOpacity = 0.5;//不透明度
     view.layer.shadowRadius = 5.0;//半径
-
-//    view.layer.shadowColor = [UIColor redColor].CGColor;// 阴影的颜色
-//
-//    view.layer.shadowRadius = 4;// 阴影扩散的范围控制
-//
-//    view.layer.shadowOffset = CGSizeMake(4,4);
-    
-    
-//    view.layer.borderColor = GrayUIColor(224).CGColor;
-//    view.layer.borderWidth = 0.8;
-
 }
 
 @end
