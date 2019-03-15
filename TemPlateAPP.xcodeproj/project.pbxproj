@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A76C278223B743C003E37AC /* JBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A76C277223B743C003E37AC /* JBaseTabBarController.m */; };
+		5AEB32B1223B792D00D5556C /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32B0223B792D00D5556C /* MeViewController.m */; };
+		5AEB32B7223B79FD00D5556C /* WLXActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32B5223B79FD00D5556C /* WLXActionSheet.m */; };
+		5AEB32B8223B79FD00D5556C /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32B6223B79FD00D5556C /* SDiOSVersion.m */; };
+		5AEB32BB223B7A7E00D5556C /* JNetReachabilityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32BA223B7A7E00D5556C /* JNetReachabilityTool.m */; };
 		5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C3222389F73006C4042 /* AppDelegate.m */; };
 		5AF48C3622389F73006C4042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C3522389F73006C4042 /* ViewController.m */; };
 		5AF48C3922389F73006C4042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF48C3722389F73006C4042 /* Main.storyboard */; };
@@ -18,8 +23,6 @@
 		5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C6E2238ECA7006C4042 /* BaseViewController.m */; };
 		5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C752238F38A006C4042 /* HomeViewController.m */; };
 		5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C782238F3B4006C4042 /* LoginViewController.m */; };
-		5AF48C812238F71D006C4042 /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C7C2238F71D006C4042 /* SDiOSVersion.m */; };
-		5AF48C822238F71D006C4042 /* WLXActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C7E2238F71D006C4042 /* WLXActionSheet.m */; };
 		5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C852238F728006C4042 /* UIView+Addition.m */; };
 		5AF48C8F2238F728006C4042 /* UIScreen+GSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */; };
 		5AF48C902238F728006C4042 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C872238F728006C4042 /* UIView+Common.m */; };
@@ -29,6 +32,16 @@
 
 /* Begin PBXFileReference section */
 		0493D003D56CFC436350F270 /* Pods-TemPlateAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemPlateAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		5A76C276223B743C003E37AC /* JBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBaseTabBarController.h; sourceTree = "<group>"; };
+		5A76C277223B743C003E37AC /* JBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBaseTabBarController.m; sourceTree = "<group>"; };
+		5AEB32AF223B792D00D5556C /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		5AEB32B0223B792D00D5556C /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		5AEB32B3223B79FD00D5556C /* WLXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXActionSheet.h; sourceTree = "<group>"; };
+		5AEB32B4223B79FD00D5556C /* SDiOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiOSVersion.h; sourceTree = "<group>"; };
+		5AEB32B5223B79FD00D5556C /* WLXActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXActionSheet.m; sourceTree = "<group>"; };
+		5AEB32B6223B79FD00D5556C /* SDiOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiOSVersion.m; sourceTree = "<group>"; };
+		5AEB32B9223B7A7E00D5556C /* JNetReachabilityTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNetReachabilityTool.h; sourceTree = "<group>"; };
+		5AEB32BA223B7A7E00D5556C /* JNetReachabilityTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNetReachabilityTool.m; sourceTree = "<group>"; };
 		5AF48C2E22389F73006C4042 /* TemPlateAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemPlateAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF48C3122389F73006C4042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AF48C3222389F73006C4042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,10 +63,6 @@
 		5AF48C752238F38A006C4042 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5AF48C772238F3B4006C4042 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5AF48C782238F3B4006C4042 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		5AF48C7C2238F71D006C4042 /* SDiOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiOSVersion.m; sourceTree = "<group>"; };
-		5AF48C7D2238F71D006C4042 /* WLXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXActionSheet.h; sourceTree = "<group>"; };
-		5AF48C7E2238F71D006C4042 /* WLXActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXActionSheet.m; sourceTree = "<group>"; };
-		5AF48C7F2238F71D006C4042 /* SDiOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiOSVersion.h; sourceTree = "<group>"; };
 		5AF48C852238F728006C4042 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 		5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+GSUtility.m"; sourceTree = "<group>"; };
 		5AF48C872238F728006C4042 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
@@ -94,6 +103,52 @@
 				B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AEB32A8223B790100D5556C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB32AA223B790F00D5556C /* Controller */,
+				5AEB32A9223B790F00D5556C /* Model */,
+				5AEB32AD223B790F00D5556C /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5AEB32A9223B790F00D5556C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AEB32AA223B790F00D5556C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB32AF223B792D00D5556C /* MeViewController.h */,
+				5AEB32B0223B792D00D5556C /* MeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AEB32AD223B790F00D5556C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AEB32B2223B79FD00D5556C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB32B3223B79FD00D5556C /* WLXActionSheet.h */,
+				5AEB32B5223B79FD00D5556C /* WLXActionSheet.m */,
+				5AEB32B4223B79FD00D5556C /* SDiOSVersion.h */,
+				5AEB32B6223B79FD00D5556C /* SDiOSVersion.m */,
+				5AEB32B9223B7A7E00D5556C /* JNetReachabilityTool.h */,
+				5AEB32BA223B7A7E00D5556C /* JNetReachabilityTool.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		5AF48C2522389F73006C4042 = {
@@ -140,6 +195,7 @@
 				5AF48C6B2238EC80006C4042 /* Common */,
 				5AF48C592238EBC8006C4042 /* Home */,
 				5AF48C5B2238EBC8006C4042 /* Login */,
+				5AEB32A8223B790100D5556C /* Me */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -239,9 +295,9 @@
 		5AF48C6B2238EC80006C4042 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5AEB32B2223B79FD00D5556C /* Tools */,
 				5AF48C932238F760006C4042 /* Macro */,
 				5AF48C6C2238EC8F006C4042 /* BaseVC */,
-				5AF48C702238ED19006C4042 /* Classes */,
 				5AF48C832238F728006C4042 /* Categorys */,
 			);
 			path = Common;
@@ -252,19 +308,10 @@
 			children = (
 				5AF48C6D2238ECA7006C4042 /* BaseViewController.h */,
 				5AF48C6E2238ECA7006C4042 /* BaseViewController.m */,
+				5A76C276223B743C003E37AC /* JBaseTabBarController.h */,
+				5A76C277223B743C003E37AC /* JBaseTabBarController.m */,
 			);
 			path = BaseVC;
-			sourceTree = "<group>";
-		};
-		5AF48C702238ED19006C4042 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5AF48C7F2238F71D006C4042 /* SDiOSVersion.h */,
-				5AF48C7C2238F71D006C4042 /* SDiOSVersion.m */,
-				5AF48C7D2238F71D006C4042 /* WLXActionSheet.h */,
-				5AF48C7E2238F71D006C4042 /* WLXActionSheet.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		5AF48C832238F728006C4042 /* Categorys */ = {
@@ -411,12 +458,15 @@
 				5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */,
 				5AF48C902238F728006C4042 /* UIView+Common.m in Sources */,
 				5AF48C582238EB87006C4042 /* UploadParam.m in Sources */,
+				5A76C278223B743C003E37AC /* JBaseTabBarController.m in Sources */,
 				5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */,
 				5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */,
-				5AF48C822238F71D006C4042 /* WLXActionSheet.m in Sources */,
 				5AF48C922238F728006C4042 /* UIColor+RGBA.m in Sources */,
+				5AEB32B8223B79FD00D5556C /* SDiOSVersion.m in Sources */,
 				5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */,
-				5AF48C812238F71D006C4042 /* SDiOSVersion.m in Sources */,
+				5AEB32BB223B7A7E00D5556C /* JNetReachabilityTool.m in Sources */,
+				5AEB32B7223B79FD00D5556C /* WLXActionSheet.m in Sources */,
+				5AEB32B1223B792D00D5556C /* MeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
