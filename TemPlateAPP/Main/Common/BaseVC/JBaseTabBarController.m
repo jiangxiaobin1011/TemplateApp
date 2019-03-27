@@ -7,8 +7,11 @@
 //
 
 #import "JBaseTabBarController.h"
+#import "TemPlateAPP-Swift.h"
+
 
 @interface JBaseTabBarController ()
+@property (nonatomic, strong) UIButton *composeButton;
 
 @end
 
@@ -16,18 +19,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    UIViewController* homeVC = [self subViewContorllerWithClassStr:@"HomeViewController" title:@"首页" imageName:@""];
     
+    [self setValue:[[JJTabBar alloc] init] forKey:@"tabBar"];
+
+
+    JHomeViewController* homeVC = [[JHomeViewController alloc] init];
+    homeVC.title = @"首页";
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    
+    
+    
+    
+//    [self subViewContorllerWithClassStr:@"JHomeViewController" title:@"首页" imageName:@""];
+    UIViewController* thirdVC = [self subViewContorllerWithClassStr:@"UIViewController" title:@"消息" imageName:@""];
+    UIViewController* forthVC = [self subViewContorllerWithClassStr:@"UIViewController" title:@"关注" imageName:@""];
     UIViewController* meVC = [self subViewContorllerWithClassStr:@"MeViewController" title:@"我" imageName:@""];
-
-    
-    
-    self.viewControllers = @[homeVC,meVC];
+    self.viewControllers = @[nav,thirdVC,forthVC,meVC];
     
     
     // Do any additional setup after loading the view.
 }
+
+
 
 
 - (UIViewController*)subViewContorllerWithClassStr:(NSString*)classStr title:(NSString*)title imageName:(NSString*)imageName{

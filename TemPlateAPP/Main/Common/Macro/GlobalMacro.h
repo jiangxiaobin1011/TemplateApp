@@ -16,6 +16,7 @@
 
 //颜色
 #define GrayUIColor(a) RGB(a, a, a)
+
 #define RANDOM_COLOR [UIColor colorWithRed:(arc4random()%100)/(float)100 green:(arc4random()%100)/(float)100 blue:(arc4random()%100)/(float)100 alpha:1]
 #define RGB(r, g, b) RGBA(r,g,b,1)
 #define RGBA(r, g, b, a) ([UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a])

@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A6425DA22421F1E0050C4F8 /* JJTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6425D922421F1E0050C4F8 /* JJTabBar.swift */; };
+		5A6425DF22422FA10050C4F8 /* JHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6425DE22422FA10050C4F8 /* JHomeViewController.swift */; };
 		5A76C278223B743C003E37AC /* JBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A76C277223B743C003E37AC /* JBaseTabBarController.m */; };
+		5AD1A11B224B47A20013C4F7 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1A115224B47A20013C4F7 /* UIView+Addition.m */; };
+		5AD1A11C224B47A20013C4F7 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1A116224B47A20013C4F7 /* UIView+Common.m */; };
+		5AD1A11D224B47A20013C4F7 /* UIColor+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1A119224B47A20013C4F7 /* UIColor+RGBA.m */; };
 		5AEB32B1223B792D00D5556C /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32B0223B792D00D5556C /* MeViewController.m */; };
 		5AEB32B7223B79FD00D5556C /* WLXActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32B5223B79FD00D5556C /* WLXActionSheet.m */; };
 		5AEB32B8223B79FD00D5556C /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32B6223B79FD00D5556C /* SDiOSVersion.m */; };
 		5AEB32BB223B7A7E00D5556C /* JNetReachabilityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32BA223B7A7E00D5556C /* JNetReachabilityTool.m */; };
+		5AEB32BE223B90D900D5556C /* JBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB32BD223B90D900D5556C /* JBannerView.m */; };
 		5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C3222389F73006C4042 /* AppDelegate.m */; };
 		5AF48C3622389F73006C4042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C3522389F73006C4042 /* ViewController.m */; };
 		5AF48C3922389F73006C4042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF48C3722389F73006C4042 /* Main.storyboard */; };
@@ -23,17 +29,22 @@
 		5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C6E2238ECA7006C4042 /* BaseViewController.m */; };
 		5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C752238F38A006C4042 /* HomeViewController.m */; };
 		5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C782238F3B4006C4042 /* LoginViewController.m */; };
-		5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C852238F728006C4042 /* UIView+Addition.m */; };
-		5AF48C8F2238F728006C4042 /* UIScreen+GSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */; };
-		5AF48C902238F728006C4042 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C872238F728006C4042 /* UIView+Common.m */; };
-		5AF48C922238F728006C4042 /* UIColor+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */; };
 		DEBC1D6C46B765A348BF843A /* libPods-TemPlateAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0493D003D56CFC436350F270 /* Pods-TemPlateAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemPlateAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		5A6425D922421F1E0050C4F8 /* JJTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJTabBar.swift; sourceTree = "<group>"; };
+		5A6425DD22422EF10050C4F8 /* SwiftOC-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftOC-Header.h"; sourceTree = "<group>"; };
+		5A6425DE22422FA10050C4F8 /* JHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHomeViewController.swift; sourceTree = "<group>"; };
 		5A76C276223B743C003E37AC /* JBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBaseTabBarController.h; sourceTree = "<group>"; };
 		5A76C277223B743C003E37AC /* JBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBaseTabBarController.m; sourceTree = "<group>"; };
+		5AD1A115224B47A20013C4F7 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		5AD1A116224B47A20013C4F7 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		5AD1A117224B47A20013C4F7 /* UIColor+RGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBA.h"; sourceTree = "<group>"; };
+		5AD1A118224B47A20013C4F7 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		5AD1A119224B47A20013C4F7 /* UIColor+RGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBA.m"; sourceTree = "<group>"; };
+		5AD1A11A224B47A20013C4F7 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		5AEB32AF223B792D00D5556C /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		5AEB32B0223B792D00D5556C /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		5AEB32B3223B79FD00D5556C /* WLXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXActionSheet.h; sourceTree = "<group>"; };
@@ -42,6 +53,8 @@
 		5AEB32B6223B79FD00D5556C /* SDiOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiOSVersion.m; sourceTree = "<group>"; };
 		5AEB32B9223B7A7E00D5556C /* JNetReachabilityTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNetReachabilityTool.h; sourceTree = "<group>"; };
 		5AEB32BA223B7A7E00D5556C /* JNetReachabilityTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNetReachabilityTool.m; sourceTree = "<group>"; };
+		5AEB32BC223B90D900D5556C /* JBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBannerView.h; sourceTree = "<group>"; };
+		5AEB32BD223B90D900D5556C /* JBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBannerView.m; sourceTree = "<group>"; };
 		5AF48C2E22389F73006C4042 /* TemPlateAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemPlateAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF48C3122389F73006C4042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AF48C3222389F73006C4042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,14 +76,6 @@
 		5AF48C752238F38A006C4042 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5AF48C772238F3B4006C4042 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5AF48C782238F3B4006C4042 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		5AF48C852238F728006C4042 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
-		5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+GSUtility.m"; sourceTree = "<group>"; };
-		5AF48C872238F728006C4042 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
-		5AF48C882238F728006C4042 /* UIColor+RGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBA.h"; sourceTree = "<group>"; };
-		5AF48C8A2238F728006C4042 /* UIScreen+GSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+GSUtility.h"; sourceTree = "<group>"; };
-		5AF48C8B2238F728006C4042 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
-		5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBA.m"; sourceTree = "<group>"; };
-		5AF48C8D2238F728006C4042 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		5AF48C962238F94C006C4042 /* GlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacro.h; sourceTree = "<group>"; };
 		96077C738C9DACB2EB1D76DD /* Pods-TemPlateAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemPlateAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemPlateAPP/Pods-TemPlateAPP.release.xcconfig"; sourceTree = "<group>"; };
 		B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemPlateAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +108,19 @@
 				B642E89A6F9CBF9F613C5805 /* libPods-TemPlateAPP.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AD1A114224B47A20013C4F7 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				5AD1A115224B47A20013C4F7 /* UIView+Addition.m */,
+				5AD1A116224B47A20013C4F7 /* UIView+Common.m */,
+				5AD1A117224B47A20013C4F7 /* UIColor+RGBA.h */,
+				5AD1A118224B47A20013C4F7 /* UIView+Addition.h */,
+				5AD1A119224B47A20013C4F7 /* UIColor+RGBA.m */,
+				5AD1A11A224B47A20013C4F7 /* UIView+Common.h */,
+			);
+			path = Categorys;
 			sourceTree = "<group>";
 		};
 		5AEB32A8223B790100D5556C /* Me */ = {
@@ -147,6 +165,8 @@
 				5AEB32B6223B79FD00D5556C /* SDiOSVersion.m */,
 				5AEB32B9223B7A7E00D5556C /* JNetReachabilityTool.h */,
 				5AEB32BA223B7A7E00D5556C /* JNetReachabilityTool.m */,
+				5AEB32BC223B90D900D5556C /* JBannerView.h */,
+				5AEB32BD223B90D900D5556C /* JBannerView.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -182,6 +202,7 @@
 				5AF48C3C22389F74006C4042 /* LaunchScreen.storyboard */,
 				5AF48C3F22389F74006C4042 /* Info.plist */,
 				5AF48C472238A162006C4042 /* TemplatePrefixHeader.pch */,
+				5A6425DD22422EF10050C4F8 /* SwiftOC-Header.h */,
 				5AF48C4022389F74006C4042 /* main.m */,
 			);
 			path = TemPlateAPP;
@@ -251,6 +272,7 @@
 			children = (
 				5AF48C742238F38A006C4042 /* HomeViewController.h */,
 				5AF48C752238F38A006C4042 /* HomeViewController.m */,
+				5A6425DE22422FA10050C4F8 /* JHomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,10 +317,10 @@
 		5AF48C6B2238EC80006C4042 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5AD1A114224B47A20013C4F7 /* Categorys */,
 				5AEB32B2223B79FD00D5556C /* Tools */,
 				5AF48C932238F760006C4042 /* Macro */,
 				5AF48C6C2238EC8F006C4042 /* BaseVC */,
-				5AF48C832238F728006C4042 /* Categorys */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -310,23 +332,9 @@
 				5AF48C6E2238ECA7006C4042 /* BaseViewController.m */,
 				5A76C276223B743C003E37AC /* JBaseTabBarController.h */,
 				5A76C277223B743C003E37AC /* JBaseTabBarController.m */,
+				5A6425D922421F1E0050C4F8 /* JJTabBar.swift */,
 			);
 			path = BaseVC;
-			sourceTree = "<group>";
-		};
-		5AF48C832238F728006C4042 /* Categorys */ = {
-			isa = PBXGroup;
-			children = (
-				5AF48C8D2238F728006C4042 /* UIView+Common.h */,
-				5AF48C872238F728006C4042 /* UIView+Common.m */,
-				5AF48C8A2238F728006C4042 /* UIScreen+GSUtility.h */,
-				5AF48C862238F728006C4042 /* UIScreen+GSUtility.m */,
-				5AF48C882238F728006C4042 /* UIColor+RGBA.h */,
-				5AF48C8C2238F728006C4042 /* UIColor+RGBA.m */,
-				5AF48C8B2238F728006C4042 /* UIView+Addition.h */,
-				5AF48C852238F728006C4042 /* UIView+Addition.m */,
-			);
-			path = Categorys;
 			sourceTree = "<group>";
 		};
 		5AF48C932238F760006C4042 /* Macro */ = {
@@ -370,6 +378,7 @@
 				TargetAttributes = {
 					5AF48C2D22389F73006C4042 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -450,21 +459,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD1A11B224B47A20013C4F7 /* UIView+Addition.m in Sources */,
+				5AD1A11C224B47A20013C4F7 /* UIView+Common.m in Sources */,
 				5AF48C3622389F73006C4042 /* ViewController.m in Sources */,
 				5AF48C6F2238ECA7006C4042 /* BaseViewController.m in Sources */,
 				5AF48C572238EB87006C4042 /* HttpRequest.m in Sources */,
-				5AF48C8F2238F728006C4042 /* UIScreen+GSUtility.m in Sources */,
 				5AF48C4122389F74006C4042 /* main.m in Sources */,
 				5AF48C792238F3B4006C4042 /* LoginViewController.m in Sources */,
-				5AF48C902238F728006C4042 /* UIView+Common.m in Sources */,
+				5AD1A11D224B47A20013C4F7 /* UIColor+RGBA.m in Sources */,
 				5AF48C582238EB87006C4042 /* UploadParam.m in Sources */,
 				5A76C278223B743C003E37AC /* JBaseTabBarController.m in Sources */,
 				5AF48C3322389F73006C4042 /* AppDelegate.m in Sources */,
-				5AF48C8E2238F728006C4042 /* UIView+Addition.m in Sources */,
-				5AF48C922238F728006C4042 /* UIColor+RGBA.m in Sources */,
+				5A6425DF22422FA10050C4F8 /* JHomeViewController.swift in Sources */,
 				5AEB32B8223B79FD00D5556C /* SDiOSVersion.m in Sources */,
+				5AEB32BE223B90D900D5556C /* JBannerView.m in Sources */,
 				5AF48C762238F38A006C4042 /* HomeViewController.m in Sources */,
 				5AEB32BB223B7A7E00D5556C /* JNetReachabilityTool.m in Sources */,
+				5A6425DA22421F1E0050C4F8 /* JJTabBar.swift in Sources */,
 				5AEB32B7223B79FD00D5556C /* WLXActionSheet.m in Sources */,
 				5AEB32B1223B792D00D5556C /* MeViewController.m in Sources */,
 			);
@@ -609,7 +620,9 @@
 			baseConfigurationReference = 0493D003D56CFC436350F270 /* Pods-TemPlateAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6L74YK9LAM;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TemPlateAPP/TemplatePrefixHeader.pch";
@@ -618,8 +631,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = "/Users/chengzhilong/Desktop/TemPlateAPP/TemPlateAPP/TemPlateAPP-Bridging-Header.h";
 				PRODUCT_BUNDLE_IDENTIFIER = IceJiang.TemPlateAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/Users/chengzhilong/Desktop/TemPlateAPP/TemPlateAPP/TemPlateAPP-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chengzhilong/Desktop/TemPlateAPP/TemPlateAPP/SwiftOC-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -630,7 +648,9 @@
 			baseConfigurationReference = 96077C738C9DACB2EB1D76DD /* Pods-TemPlateAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6L74YK9LAM;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TemPlateAPP/TemplatePrefixHeader.pch";
@@ -639,8 +659,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = "/Users/chengzhilong/Desktop/TemPlateAPP/TemPlateAPP/TemPlateAPP-Bridging-Header.h";
 				PRODUCT_BUNDLE_IDENTIFIER = IceJiang.TemPlateAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/Users/chengzhilong/Desktop/TemPlateAPP/TemPlateAPP/TemPlateAPP-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chengzhilong/Desktop/TemPlateAPP/TemPlateAPP/SwiftOC-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};

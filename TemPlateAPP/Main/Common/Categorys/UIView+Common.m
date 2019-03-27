@@ -82,9 +82,6 @@
 +(UIView*)create_line:(CGRect)frame
 {
     UIView* line = [[UIView alloc] initWithFrame:frame];
-    
-    line.backgroundColor = RGB(244, 244, 244);
-    
     return line;
 }
 

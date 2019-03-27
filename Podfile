@@ -1,3 +1,5 @@
+source 'https://github.com/jiangxiaobin1011/JSpecs.git'
+
 platform:ios,'9.0'
 target 'TemPlateAPP' do
 pod 'Masonry'
@@ -7,4 +9,5 @@ pod 'MBProgressHUD'
 pod 'MJRefresh'
 pod 'IQKeyboardManager'
 pod 'YYModel'
+pod 'JCategoryKit'
 end
